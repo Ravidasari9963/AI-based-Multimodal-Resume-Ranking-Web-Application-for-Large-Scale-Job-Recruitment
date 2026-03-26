@@ -1,0 +1,17 @@
+node_modules/
+__pycache__/
+env/
+venv/
+.env
+.venv/
+db.sqlite3
+media/
+.expo/
+build/
+*.pyc
+
+# Expo and React Native
+.expo-shared/
+.watchmanconfig
+android/
+ios/
