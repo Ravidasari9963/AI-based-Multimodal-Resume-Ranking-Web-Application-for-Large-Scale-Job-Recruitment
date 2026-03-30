@@ -6,7 +6,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 // Note: Animations disabled for Expo Go compatibility
 
 const { width } = Dimensions.get('window');
-const API_BASE_URL = 'http://192.168.137.22:8000';
+const API_BASE_URL = 'http://192.168.137.64:8000';
 
 export default function UserLoginScreen() {
   const router = useRouter();

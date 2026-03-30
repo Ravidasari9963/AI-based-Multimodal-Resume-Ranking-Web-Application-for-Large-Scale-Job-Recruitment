@@ -5,7 +5,7 @@ import { useRouter } from 'expo-router';
 import { LinearGradient } from 'expo-linear-gradient';
 // react-native-reanimated removed for Expo Go compatibility
 
-const API_BASE_URL = 'http://192.168.137.22:8000';
+const API_BASE_URL = 'http://192.168.137.64:8000';
 
 export default function RegisterScreen() {
   const router = useRouter();
