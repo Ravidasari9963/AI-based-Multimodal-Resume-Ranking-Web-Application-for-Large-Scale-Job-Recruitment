@@ -7,7 +7,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 // react-native-reanimated removed for Expo Go compatibility
 
 const { width } = Dimensions.get('window');
-const API_BASE_URL = 'http://192.168.137.64:8000';
+const API_BASE_URL = Platform.OS === 'web' ? 'http://localhost:8000' : 'http://192.168.137.64:8000';
 
 export default function ResumeUploadScreen() {
   const router = useRouter();
