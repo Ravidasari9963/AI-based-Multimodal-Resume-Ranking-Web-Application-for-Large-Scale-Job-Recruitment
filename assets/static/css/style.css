@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 /* style.css */
 .background-image-class {
-  background-image: url("{% static 'assets/img/image1.jpg' %}");
+  background-image: url("../img/image1.jpg");
 }
 
 
