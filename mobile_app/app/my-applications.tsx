@@ -5,7 +5,7 @@ import { useRouter } from 'expo-router';
 import { LinearGradient } from 'expo-linear-gradient';
 // react-native-reanimated removed for Expo Go compatibility
 
-const API_BASE_URL = Platform.OS === 'web' ? 'http://localhost:8000' : 'http://192.168.137.64:8000';
+const API_BASE_URL = 'https://ai-based-multimodal-resume-ranking-web.onrender.com';
 
 export default function MyApplicationsScreen() {
   const router = useRouter();

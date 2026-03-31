@@ -1,7 +1,8 @@
-from django.shortcuts import redirect
+from django.shortcuts import redirect, render
+from django.http import HttpResponse
 
 def index(request):
-    return redirect('http://localhost:8081/')
+    return HttpResponse('AI Based Multimodal Resume Ranking APIS are running successfully on ' + request.get_host())
 
 def AdminLogin(request):
     return render(request, 'AdminLogin.html', {})
